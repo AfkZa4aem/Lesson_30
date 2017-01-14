@@ -56,3 +56,7 @@ post '/contacts' do
 
 	erb "Thank you we will contact you"
 end
+
+get '/barber/:id' do
+	erb "It will be a barber page dude!"
+end
