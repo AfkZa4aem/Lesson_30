@@ -58,5 +58,6 @@ post '/contacts' do
 end
 
 get '/barber/:id' do
-	erb "It will be a barber page dude!"
+
+	erb :barber
 end
